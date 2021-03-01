@@ -69,7 +69,7 @@ public class MainWindow extends VBox {
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 c = tutte.get(i * 9 + j); //per prendere l'indice giusto
-                c.scopri(); //debug
+                //c.scopri(); //debug
                 griglia.add(c, j, i);
             }
         }
